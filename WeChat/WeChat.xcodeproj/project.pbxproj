@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		F17C72D82366CC1F000FF509 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17C72D72366CC1F000FF509 /* AppDelegate.swift */; };
-		F17C72DA2366CC1F000FF509 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17C72D92366CC1F000FF509 /* SceneDelegate.swift */; };
-		F17C72DC2366CC1F000FF509 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17C72DB2366CC1F000FF509 /* ViewController.swift */; };
-		F17C72DF2366CC1F000FF509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17C72DD2366CC1F000FF509 /* Main.storyboard */; };
 		F17C72E12366CC21000FF509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F17C72E02366CC21000FF509 /* Assets.xcassets */; };
 		F17C72E42366CC21000FF509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17C72E22366CC21000FF509 /* LaunchScreen.storyboard */; };
 		F17C72EF2366CC23000FF509 /* WeChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17C72EE2366CC23000FF509 /* WeChatTests.swift */; };
 		F17C72FA2366CC23000FF509 /* WeChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17C72F92366CC23000FF509 /* WeChatUITests.swift */; };
+		F17C730A2366CF08000FF509 /* ZQTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17C73092366CF08000FF509 /* ZQTabBarViewController.swift */; };
+		F17C73102366D0CD000FF509 /* ZQChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17C730F2366D0CD000FF509 /* ZQChatViewController.swift */; };
+		F17C73122366D0DE000FF509 /* ZQContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17C73112366D0DE000FF509 /* ZQContactsViewController.swift */; };
+		F17C73142366D0E9000FF509 /* ZQDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17C73132366D0E9000FF509 /* ZQDiscoverViewController.swift */; };
+		F17C73162366D0FE000FF509 /* ZQMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17C73152366D0FE000FF509 /* ZQMeViewController.swift */; };
+		F17C73182366EF45000FF509 /* ZQMeAvatarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17C73172366EF45000FF509 /* ZQMeAvatarTableViewCell.swift */; };
+		F17C731A2366EF5E000FF509 /* ZQMeImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17C73192366EF5E000FF509 /* ZQMeImageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +41,6 @@
 /* Begin PBXFileReference section */
 		F17C72D42366CC1F000FF509 /* WeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17C72D72366CC1F000FF509 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F17C72D92366CC1F000FF509 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F17C72DB2366CC1F000FF509 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F17C72DE2366CC1F000FF509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F17C72E02366CC21000FF509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F17C72E32366CC21000FF509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F17C72E52366CC21000FF509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,13 @@
 		F17C72F52366CC23000FF509 /* WeChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17C72F92366CC23000FF509 /* WeChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatUITests.swift; sourceTree = "<group>"; };
 		F17C72FB2366CC23000FF509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F17C73092366CF08000FF509 /* ZQTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTabBarViewController.swift; sourceTree = "<group>"; };
+		F17C730F2366D0CD000FF509 /* ZQChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQChatViewController.swift; sourceTree = "<group>"; };
+		F17C73112366D0DE000FF509 /* ZQContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQContactsViewController.swift; sourceTree = "<group>"; };
+		F17C73132366D0E9000FF509 /* ZQDiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQDiscoverViewController.swift; sourceTree = "<group>"; };
+		F17C73152366D0FE000FF509 /* ZQMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQMeViewController.swift; sourceTree = "<group>"; };
+		F17C73172366EF45000FF509 /* ZQMeAvatarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQMeAvatarTableViewCell.swift; sourceTree = "<group>"; };
+		F17C73192366EF5E000FF509 /* ZQMeImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQMeImageTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,7 @@
 		F17C72D62366CC1F000FF509 /* WeChat */ = {
 			isa = PBXGroup;
 			children = (
-				F17C72D72366CC1F000FF509 /* AppDelegate.swift */,
-				F17C72D92366CC1F000FF509 /* SceneDelegate.swift */,
-				F17C72DB2366CC1F000FF509 /* ViewController.swift */,
-				F17C72DD2366CC1F000FF509 /* Main.storyboard */,
+				F17C73072366CDED000FF509 /* App */,
 				F17C72E02366CC21000FF509 /* Assets.xcassets */,
 				F17C72E22366CC21000FF509 /* LaunchScreen.storyboard */,
 				F17C72E52366CC21000FF509 /* Info.plist */,
@@ -126,6 +131,61 @@
 				F17C72FB2366CC23000FF509 /* Info.plist */,
 			);
 			path = WeChatUITests;
+			sourceTree = "<group>";
+		};
+		F17C73072366CDED000FF509 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F17C730E2366D059000FF509 /* Me */,
+				F17C730D2366D04B000FF509 /* Discover */,
+				F17C730C2366D03C000FF509 /* Contacts */,
+				F17C730B2366CF12000FF509 /* Chat */,
+				F17C73082366CE0D000FF509 /* TabBar */,
+				F17C72D72366CC1F000FF509 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F17C73082366CE0D000FF509 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F17C73092366CF08000FF509 /* ZQTabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		F17C730B2366CF12000FF509 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				F17C730F2366D0CD000FF509 /* ZQChatViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		F17C730C2366D03C000FF509 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				F17C73112366D0DE000FF509 /* ZQContactsViewController.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		F17C730D2366D04B000FF509 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				F17C73132366D0E9000FF509 /* ZQDiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		F17C730E2366D059000FF509 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				F17C73152366D0FE000FF509 /* ZQMeViewController.swift */,
+				F17C73172366EF45000FF509 /* ZQMeAvatarTableViewCell.swift */,
+				F17C73192366EF5E000FF509 /* ZQMeImageTableViewCell.swift */,
+			);
+			path = Me;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +294,6 @@
 			files = (
 				F17C72E42366CC21000FF509 /* LaunchScreen.storyboard in Resources */,
 				F17C72E12366CC21000FF509 /* Assets.xcassets in Resources */,
-				F17C72DF2366CC1F000FF509 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +318,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F17C72DC2366CC1F000FF509 /* ViewController.swift in Sources */,
+				F17C73142366D0E9000FF509 /* ZQDiscoverViewController.swift in Sources */,
+				F17C730A2366CF08000FF509 /* ZQTabBarViewController.swift in Sources */,
+				F17C731A2366EF5E000FF509 /* ZQMeImageTableViewCell.swift in Sources */,
+				F17C73162366D0FE000FF509 /* ZQMeViewController.swift in Sources */,
+				F17C73122366D0DE000FF509 /* ZQContactsViewController.swift in Sources */,
 				F17C72D82366CC1F000FF509 /* AppDelegate.swift in Sources */,
-				F17C72DA2366CC1F000FF509 /* SceneDelegate.swift in Sources */,
+				F17C73102366D0CD000FF509 /* ZQChatViewController.swift in Sources */,
+				F17C73182366EF45000FF509 /* ZQMeAvatarTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +361,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F17C72DD2366CC1F000FF509 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F17C72DE2366CC1F000FF509 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F17C72E22366CC21000FF509 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,6 +493,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UN2533DEM9;
 				INFOPLIST_FILE = WeChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +512,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UN2533DEM9;
 				INFOPLIST_FILE = WeChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ZQChatViewController.swift
 //  WeChat
 //
 //  Created by zhangqiaoqiao on 2019/10/28.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ZQChatViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = .lightGray
     }
-
-
+    
 }
-
