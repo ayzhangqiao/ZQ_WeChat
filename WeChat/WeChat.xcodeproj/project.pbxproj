@@ -3,10 +3,116 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F2DDA58DE8259FDB04AB475 /* Pods_WeChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA24266A86208C52157F0B7B /* Pods_WeChatTests.framework */; };
+		6B151079ABEC112F34B9D0C4 /* Pods_WeChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACCED85F6419CDDD821CBA0 /* Pods_WeChatUITests.framework */; };
+		F140340323681366003AD2D6 /* ZQNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F140340223681366003AD2D6 /* ZQNavigationController.swift */; };
+		F1403406236818F2003AD2D6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1403405236818F2003AD2D6 /* Constants.swift */; };
+		F140340923681DF0003AD2D6 /* UIImage+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = F140340823681DF0003AD2D6 /* UIImage+SVG.swift */; };
+		F140347323683889003AD2D6 /* MomentCoverBackground.json in Resources */ = {isa = PBXBuildFile; fileRef = F140340B23683889003AD2D6 /* MomentCoverBackground.json */; };
+		F140347423683889003AD2D6 /* Expressions.json in Resources */ = {isa = PBXBuildFile; fileRef = F140340C23683889003AD2D6 /* Expressions.json */; };
+		F140347523683889003AD2D6 /* jsb_emoticon_md5.png in Resources */ = {isa = PBXBuildFile; fileRef = F140340D23683889003AD2D6 /* jsb_emoticon_md5.png */; };
+		F140347623683889003AD2D6 /* dice_emoticon_md5.png in Resources */ = {isa = PBXBuildFile; fileRef = F140340E23683889003AD2D6 /* dice_emoticon_md5.png */; };
+		F140347723683889003AD2D6 /* icons_outlined_share.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140341023683889003AD2D6 /* icons_outlined_share.svg */; };
+		F140347823683889003AD2D6 /* icons_filled_more.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140341123683889003AD2D6 /* icons_filled_more.svg */; };
+		F140347923683889003AD2D6 /* red_envelopes_detail_top_bg.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140341223683889003AD2D6 /* red_envelopes_detail_top_bg.svg */; };
+		F140347A23683889003AD2D6 /* icons_filled_pay.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140341323683889003AD2D6 /* icons_filled_pay.svg */; };
+		F140347B23683889003AD2D6 /* icons_filled_chats.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140341423683889003AD2D6 /* icons_filled_chats.svg */; };
+		F140347C23683889003AD2D6 /* icons_outlined_wallet.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140341523683889003AD2D6 /* icons_outlined_wallet.svg */; };
+		F140347D23683889003AD2D6 /* icons_outlined_shake.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140341623683889003AD2D6 /* icons_outlined_shake.svg */; };
+		F140347E23683889003AD2D6 /* icons_outlined_album.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140341723683889003AD2D6 /* icons_outlined_album.svg */; };
+		F140347F23683889003AD2D6 /* icons_outlined_add2.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140341823683889003AD2D6 /* icons_outlined_add2.svg */; };
+		F140348023683889003AD2D6 /* ui-resources_badge_dot.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140341923683889003AD2D6 /* ui-resources_badge_dot.svg */; };
+		F140348123683889003AD2D6 /* icons_filled_sticker.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140341A23683889003AD2D6 /* icons_filled_sticker.svg */; };
+		F140348223683889003AD2D6 /* icons_outlined_discover.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140341B23683889003AD2D6 /* icons_outlined_discover.svg */; };
+		F140348323683889003AD2D6 /* icons_filled_scan.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140341C23683889003AD2D6 /* icons_filled_scan.svg */; };
+		F140348423683889003AD2D6 /* icon_filled_timelineophl.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140341D23683889003AD2D6 /* icon_filled_timelineophl.svg */; };
+		F140348523683889003AD2D6 /* icons_outlined_comment.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140341E23683889003AD2D6 /* icons_outlined_comment.svg */; };
+		F140348623683889003AD2D6 /* icons_filled_back.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140341F23683889003AD2D6 /* icons_filled_back.svg */; };
+		F140348723683889003AD2D6 /* icons_filled_contacts.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140342023683889003AD2D6 /* icons_filled_contacts.svg */; };
+		F140348823683889003AD2D6 /* icons_outlined_keyboard.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140342123683889003AD2D6 /* icons_outlined_keyboard.svg */; };
+		F140348923683889003AD2D6 /* icons_outlined_me.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140342223683889003AD2D6 /* icons_outlined_me.svg */; };
+		F140348A23683889003AD2D6 /* icons_filled_wallet.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140342323683889003AD2D6 /* icons_filled_wallet.svg */; };
+		F140348B23683889003AD2D6 /* icons_filled_done.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140342423683889003AD2D6 /* icons_filled_done.svg */; };
+		F140348C23683889003AD2D6 /* icons_outlined_colorful_favorites.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140342523683889003AD2D6 /* icons_outlined_colorful_favorites.svg */; };
+		F140348D23683889003AD2D6 /* icons_outlined_pay.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140342623683889003AD2D6 /* icons_outlined_pay.svg */; };
+		F140348E23683889003AD2D6 /* icons_outlined_mute.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140342723683889003AD2D6 /* icons_outlined_mute.svg */; };
+		F140348F23683889003AD2D6 /* icons_filled_location.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140342823683889003AD2D6 /* icons_filled_location.svg */; };
+		F140349023683889003AD2D6 /* icons_filled_radar.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140342923683889003AD2D6 /* icons_filled_radar.svg */; };
+		F140349123683889003AD2D6 /* icons_outlined_miniprogram.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140342A23683889003AD2D6 /* icons_outlined_miniprogram.svg */; };
+		F140349223683889003AD2D6 /* icons_filled_favorites.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140342B23683889003AD2D6 /* icons_filled_favorites.svg */; };
+		F140349323683889003AD2D6 /* icons_outlined_voice.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140342C23683889003AD2D6 /* icons_outlined_voice.svg */; };
+		F140349423683889003AD2D6 /* icons_filled_me.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140342D23683889003AD2D6 /* icons_filled_me.svg */; };
+		F140349523683889003AD2D6 /* icons_outlined_back.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140342E23683889003AD2D6 /* icons_outlined_back.svg */; };
+		F140349623683889003AD2D6 /* icons_outlined_scan.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140342F23683889003AD2D6 /* icons_outlined_scan.svg */; };
+		F140349723683889003AD2D6 /* icons_outlined_setting.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140343023683889003AD2D6 /* icons_outlined_setting.svg */; };
+		F140349823683889003AD2D6 /* icons_outlined_at.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140343123683889003AD2D6 /* icons_outlined_at.svg */; };
+		F140349923683889003AD2D6 /* icons_outlined_sticker.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140343223683889003AD2D6 /* icons_outlined_sticker.svg */; };
+		F140349A23683889003AD2D6 /* icons_outlined_wechatpay.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140343323683889003AD2D6 /* icons_outlined_wechatpay.svg */; };
+		F140349B23683889003AD2D6 /* red_envelopes_top_bg.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140343423683889003AD2D6 /* red_envelopes_top_bg.svg */; };
+		F140349C23683889003AD2D6 /* ui-resources_badge_count.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140343523683889003AD2D6 /* ui-resources_badge_count.svg */; };
+		F140349D23683889003AD2D6 /* icons_outlined_news.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140343623683889003AD2D6 /* icons_outlined_news.svg */; };
+		F140349E23683889003AD2D6 /* icons_filled_mobile-contacts.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140343723683889003AD2D6 /* icons_filled_mobile-contacts.svg */; };
+		F140349F23683889003AD2D6 /* icons_outlined_takephoto_nor.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140343823683889003AD2D6 /* icons_outlined_takephoto_nor.svg */; };
+		F14034A023683889003AD2D6 /* icons_filled_transfer.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140343923683889003AD2D6 /* icons_filled_transfer.svg */; };
+		F14034A123683889003AD2D6 /* icons_outlined_addfriends.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140343A23683889003AD2D6 /* icons_outlined_addfriends.svg */; };
+		F14034A223683889003AD2D6 /* icons_outlined_qr-code.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140343B23683889003AD2D6 /* icons_outlined_qr-code.svg */; };
+		F14034A323683889003AD2D6 /* icons_outlined_chats.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140343C23683889003AD2D6 /* icons_outlined_chats.svg */; };
+		F14034A423683889003AD2D6 /* icons_outlined_videocall.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140343D23683889003AD2D6 /* icons_outlined_videocall.svg */; };
+		F14034A523683889003AD2D6 /* icons_filled_add.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140343E23683889003AD2D6 /* icons_filled_add.svg */; };
+		F14034A623683889003AD2D6 /* ui-resources_checkbox_unselected.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140343F23683889003AD2D6 /* ui-resources_checkbox_unselected.svg */; };
+		F14034A723683889003AD2D6 /* icons_outlined_addoutline.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140344023683889003AD2D6 /* icons_outlined_addoutline.svg */; };
+		F14034A823683889003AD2D6 /* icons_filled_group-detail.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140344123683889003AD2D6 /* icons_filled_group-detail.svg */; };
+		F14034A923683889003AD2D6 /* icons_outlined_location.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140344223683889003AD2D6 /* icons_outlined_location.svg */; };
+		F14034AA23683889003AD2D6 /* icons_filled_camera.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140344323683889003AD2D6 /* icons_filled_camera.svg */; };
+		F14034AB23683889003AD2D6 /* icons_filled_album.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140344423683889003AD2D6 /* icons_filled_album.svg */; };
+		F14034AC23683889003AD2D6 /* icons_filled_discover.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140344523683889003AD2D6 /* icons_filled_discover.svg */; };
+		F14034AD23683889003AD2D6 /* icons_outlined_mini-program.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140344623683889003AD2D6 /* icons_outlined_mini-program.svg */; };
+		F14034AE23683889003AD2D6 /* icons_outlined_arrow.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140344723683889003AD2D6 /* icons_outlined_arrow.svg */; };
+		F14034AF23683889003AD2D6 /* icons_outlined_colorful_game.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140344823683889003AD2D6 /* icons_outlined_colorful_game.svg */; };
+		F14034B023683889003AD2D6 /* icons_outlined_contacts.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140344923683889003AD2D6 /* icons_outlined_contacts.svg */; };
+		F14034B123683889003AD2D6 /* icons_filled_search-logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140344A23683889003AD2D6 /* icons_filled_search-logo.svg */; };
+		F14034B223683889003AD2D6 /* ui-resources_checkbox_selected.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140344B23683889003AD2D6 /* ui-resources_checkbox_selected.svg */; };
+		F14034B323683889003AD2D6 /* icons_filled_folder.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140344C23683889003AD2D6 /* icons_filled_folder.svg */; };
+		F14034B423683889003AD2D6 /* icons_outlined_camera.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140344D23683889003AD2D6 /* icons_outlined_camera.svg */; };
+		F14034B523683889003AD2D6 /* icons_outlined_shop.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140344E23683889003AD2D6 /* icons_outlined_shop.svg */; };
+		F14034B623683889003AD2D6 /* icons_filled_close.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140344F23683889003AD2D6 /* icons_filled_close.svg */; };
+		F14034B723683889003AD2D6 /* red_envelopes_bottom_bg.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140345023683889003AD2D6 /* red_envelopes_bottom_bg.svg */; };
+		F14034B823683889003AD2D6 /* icons_outlined_nearby.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140345123683889003AD2D6 /* icons_outlined_nearby.svg */; };
+		F14034B923683889003AD2D6 /* icon_filled_timelineop.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140345223683889003AD2D6 /* icon_filled_timelineop.svg */; };
+		F14034BA23683889003AD2D6 /* icons_outlined_radar.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140345323683889003AD2D6 /* icons_outlined_radar.svg */; };
+		F14034BB23683889003AD2D6 /* icons_filled_official-accounts.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140345423683889003AD2D6 /* icons_filled_official-accounts.svg */; };
+		F14034BC23683889003AD2D6 /* icons_filled_add-friends.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140345523683889003AD2D6 /* icons_filled_add-friends.svg */; };
+		F14034BD23683889003AD2D6 /* icons_outlined_like.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140345623683889003AD2D6 /* icons_outlined_like.svg */; };
+		F14034BE23683889003AD2D6 /* icons_outlined_colorful_moment.svg in Resources */ = {isa = PBXBuildFile; fileRef = F140345723683889003AD2D6 /* icons_outlined_colorful_moment.svg */; };
+		F14034BF23683889003AD2D6 /* WeChatSansStd-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F140345923683889003AD2D6 /* WeChatSansStd-Regular.ttf */; };
+		F14034C023683889003AD2D6 /* WeChatSansSuperscript-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F140345A23683889003AD2D6 /* WeChatSansSuperscript-Medium.ttf */; };
+		F14034C123683889003AD2D6 /* WeChatSansSuperscript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F140345B23683889003AD2D6 /* WeChatSansSuperscript-Regular.ttf */; };
+		F14034C223683889003AD2D6 /* WeChatSansStd-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F140345C23683889003AD2D6 /* WeChatSansStd-Bold.ttf */; };
+		F14034C323683889003AD2D6 /* WeChatSansSuperscript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F140345D23683889003AD2D6 /* WeChatSansSuperscript-Bold.ttf */; };
+		F14034C423683889003AD2D6 /* WeChatSansStd-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F140345E23683889003AD2D6 /* WeChatSansStd-Medium.ttf */; };
+		F14034C523683889003AD2D6 /* Emoticons.json in Resources */ = {isa = PBXBuildFile; fileRef = F140346023683889003AD2D6 /* Emoticons.json */; };
+		F14034C623683889003AD2D6 /* 15031638347220abdd83283a10.png in Resources */ = {isa = PBXBuildFile; fileRef = F140346123683889003AD2D6 /* 15031638347220abdd83283a10.png */; };
+		F14034C723683889003AD2D6 /* EmoticonBanners.json in Resources */ = {isa = PBXBuildFile; fileRef = F140346223683889003AD2D6 /* EmoticonBanners.json */; };
+		F14034C823683889003AD2D6 /* 15031638347220abdd83283a10.json in Resources */ = {isa = PBXBuildFile; fileRef = F140346323683889003AD2D6 /* 15031638347220abdd83283a10.json */; };
+		F14034C923683889003AD2D6 /* 153716293386e633a27b0f3d76.png in Resources */ = {isa = PBXBuildFile; fileRef = F140346423683889003AD2D6 /* 153716293386e633a27b0f3d76.png */; };
+		F14034CA23683889003AD2D6 /* 153716293386e633a27b0f3d76.json in Resources */ = {isa = PBXBuildFile; fileRef = F140346523683889003AD2D6 /* 153716293386e633a27b0f3d76.json */; };
+		F14034CB23683889003AD2D6 /* Emoticons.zip in Resources */ = {isa = PBXBuildFile; fileRef = F140346623683889003AD2D6 /* Emoticons.zip */; };
+		F14034CC23683889003AD2D6 /* dice.pic in Resources */ = {isa = PBXBuildFile; fileRef = F140346823683889003AD2D6 /* dice.pic */; };
+		F14034CD23683889003AD2D6 /* JSB_J.pic in Resources */ = {isa = PBXBuildFile; fileRef = F140346923683889003AD2D6 /* JSB_J.pic */; };
+		F14034CE23683889003AD2D6 /* JSB.pic in Resources */ = {isa = PBXBuildFile; fileRef = F140346A23683889003AD2D6 /* JSB.pic */; };
+		F14034CF23683889003AD2D6 /* dice_3.pic in Resources */ = {isa = PBXBuildFile; fileRef = F140346B23683889003AD2D6 /* dice_3.pic */; };
+		F14034D023683889003AD2D6 /* dice_2.pic in Resources */ = {isa = PBXBuildFile; fileRef = F140346C23683889003AD2D6 /* dice_2.pic */; };
+		F14034D123683889003AD2D6 /* JSB_S.pic in Resources */ = {isa = PBXBuildFile; fileRef = F140346D23683889003AD2D6 /* JSB_S.pic */; };
+		F14034D223683889003AD2D6 /* dice_1.pic in Resources */ = {isa = PBXBuildFile; fileRef = F140346E23683889003AD2D6 /* dice_1.pic */; };
+		F14034D323683889003AD2D6 /* dice_5.pic in Resources */ = {isa = PBXBuildFile; fileRef = F140346F23683889003AD2D6 /* dice_5.pic */; };
+		F14034D423683889003AD2D6 /* dice_4.pic in Resources */ = {isa = PBXBuildFile; fileRef = F140347023683889003AD2D6 /* dice_4.pic */; };
+		F14034D523683889003AD2D6 /* dice_6.pic in Resources */ = {isa = PBXBuildFile; fileRef = F140347123683889003AD2D6 /* dice_6.pic */; };
+		F14034D623683889003AD2D6 /* JSB_B.pic in Resources */ = {isa = PBXBuildFile; fileRef = F140347223683889003AD2D6 /* JSB_B.pic */; };
+		F14034D82368395A003AD2D6 /* SVGImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14034D72368395A003AD2D6 /* SVGImage+Extensions.swift */; };
 		F17C72D82366CC1F000FF509 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17C72D72366CC1F000FF509 /* AppDelegate.swift */; };
 		F17C72E12366CC21000FF509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F17C72E02366CC21000FF509 /* Assets.xcassets */; };
 		F17C72E42366CC21000FF509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17C72E22366CC21000FF509 /* LaunchScreen.storyboard */; };
@@ -19,6 +125,7 @@
 		F17C73162366D0FE000FF509 /* ZQMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17C73152366D0FE000FF509 /* ZQMeViewController.swift */; };
 		F17C73182366EF45000FF509 /* ZQMeAvatarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17C73172366EF45000FF509 /* ZQMeAvatarTableViewCell.swift */; };
 		F17C731A2366EF5E000FF509 /* ZQMeImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17C73192366EF5E000FF509 /* ZQMeImageTableViewCell.swift */; };
+		F5B3A563CD895A86159C0CBB /* Pods_WeChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D18B9810D9DE55B3E5AFCC /* Pods_WeChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +146,118 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14D18B9810D9DE55B3E5AFCC /* Pods_WeChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D36798C3F14A1F5854C4CD0 /* Pods-WeChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatTests.debug.xcconfig"; path = "Target Support Files/Pods-WeChatTests/Pods-WeChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A4C4B20B20F379F61ABA6B5 /* Pods-WeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChat.release.xcconfig"; path = "Target Support Files/Pods-WeChat/Pods-WeChat.release.xcconfig"; sourceTree = "<group>"; };
+		7CC006D43E65B949CFD77BF9 /* Pods-WeChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatUITests.release.xcconfig"; path = "Target Support Files/Pods-WeChatUITests/Pods-WeChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		92D80AAB3D1EB838F7728D9A /* Pods-WeChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatTests.release.xcconfig"; path = "Target Support Files/Pods-WeChatTests/Pods-WeChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE22B0B3012EFEA33AD8B260 /* Pods-WeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChat.debug.xcconfig"; path = "Target Support Files/Pods-WeChat/Pods-WeChat.debug.xcconfig"; sourceTree = "<group>"; };
+		BACCED85F6419CDDD821CBA0 /* Pods_WeChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6994000A8433D18130E93A /* Pods-WeChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-WeChatUITests/Pods-WeChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F140340223681366003AD2D6 /* ZQNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQNavigationController.swift; sourceTree = "<group>"; };
+		F1403405236818F2003AD2D6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F140340823681DF0003AD2D6 /* UIImage+SVG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+SVG.swift"; sourceTree = "<group>"; };
+		F140340B23683889003AD2D6 /* MomentCoverBackground.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MomentCoverBackground.json; sourceTree = "<group>"; };
+		F140340C23683889003AD2D6 /* Expressions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Expressions.json; sourceTree = "<group>"; };
+		F140340D23683889003AD2D6 /* jsb_emoticon_md5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jsb_emoticon_md5.png; sourceTree = "<group>"; };
+		F140340E23683889003AD2D6 /* dice_emoticon_md5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice_emoticon_md5.png; sourceTree = "<group>"; };
+		F140341023683889003AD2D6 /* icons_outlined_share.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_share.svg; sourceTree = "<group>"; };
+		F140341123683889003AD2D6 /* icons_filled_more.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_filled_more.svg; sourceTree = "<group>"; };
+		F140341223683889003AD2D6 /* red_envelopes_detail_top_bg.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = red_envelopes_detail_top_bg.svg; sourceTree = "<group>"; };
+		F140341323683889003AD2D6 /* icons_filled_pay.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_filled_pay.svg; sourceTree = "<group>"; };
+		F140341423683889003AD2D6 /* icons_filled_chats.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_filled_chats.svg; sourceTree = "<group>"; };
+		F140341523683889003AD2D6 /* icons_outlined_wallet.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_wallet.svg; sourceTree = "<group>"; };
+		F140341623683889003AD2D6 /* icons_outlined_shake.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_shake.svg; sourceTree = "<group>"; };
+		F140341723683889003AD2D6 /* icons_outlined_album.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_album.svg; sourceTree = "<group>"; };
+		F140341823683889003AD2D6 /* icons_outlined_add2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_add2.svg; sourceTree = "<group>"; };
+		F140341923683889003AD2D6 /* ui-resources_badge_dot.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ui-resources_badge_dot.svg"; sourceTree = "<group>"; };
+		F140341A23683889003AD2D6 /* icons_filled_sticker.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_filled_sticker.svg; sourceTree = "<group>"; };
+		F140341B23683889003AD2D6 /* icons_outlined_discover.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_discover.svg; sourceTree = "<group>"; };
+		F140341C23683889003AD2D6 /* icons_filled_scan.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_filled_scan.svg; sourceTree = "<group>"; };
+		F140341D23683889003AD2D6 /* icon_filled_timelineophl.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icon_filled_timelineophl.svg; sourceTree = "<group>"; };
+		F140341E23683889003AD2D6 /* icons_outlined_comment.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_comment.svg; sourceTree = "<group>"; };
+		F140341F23683889003AD2D6 /* icons_filled_back.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_filled_back.svg; sourceTree = "<group>"; };
+		F140342023683889003AD2D6 /* icons_filled_contacts.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_filled_contacts.svg; sourceTree = "<group>"; };
+		F140342123683889003AD2D6 /* icons_outlined_keyboard.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_keyboard.svg; sourceTree = "<group>"; };
+		F140342223683889003AD2D6 /* icons_outlined_me.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_me.svg; sourceTree = "<group>"; };
+		F140342323683889003AD2D6 /* icons_filled_wallet.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_filled_wallet.svg; sourceTree = "<group>"; };
+		F140342423683889003AD2D6 /* icons_filled_done.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_filled_done.svg; sourceTree = "<group>"; };
+		F140342523683889003AD2D6 /* icons_outlined_colorful_favorites.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_colorful_favorites.svg; sourceTree = "<group>"; };
+		F140342623683889003AD2D6 /* icons_outlined_pay.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_pay.svg; sourceTree = "<group>"; };
+		F140342723683889003AD2D6 /* icons_outlined_mute.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icons_outlined_mute.svg; sourceTree = "<group>"; };
+		F140342823683889003AD2D6 /* icons_filled_location.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_filled_location.svg; sourceTree = "<group>"; };
+		F140342923683889003AD2D6 /* icons_filled_radar.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_filled_radar.svg; sourceTree = "<group>"; };
+		F140342A23683889003AD2D6 /* icons_outlined_miniprogram.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_miniprogram.svg; sourceTree = "<group>"; };
+		F140342B23683889003AD2D6 /* icons_filled_favorites.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_filled_favorites.svg; sourceTree = "<group>"; };
+		F140342C23683889003AD2D6 /* icons_outlined_voice.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_voice.svg; sourceTree = "<group>"; };
+		F140342D23683889003AD2D6 /* icons_filled_me.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_filled_me.svg; sourceTree = "<group>"; };
+		F140342E23683889003AD2D6 /* icons_outlined_back.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_back.svg; sourceTree = "<group>"; };
+		F140342F23683889003AD2D6 /* icons_outlined_scan.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_scan.svg; sourceTree = "<group>"; };
+		F140343023683889003AD2D6 /* icons_outlined_setting.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_setting.svg; sourceTree = "<group>"; };
+		F140343123683889003AD2D6 /* icons_outlined_at.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_at.svg; sourceTree = "<group>"; };
+		F140343223683889003AD2D6 /* icons_outlined_sticker.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_sticker.svg; sourceTree = "<group>"; };
+		F140343323683889003AD2D6 /* icons_outlined_wechatpay.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_wechatpay.svg; sourceTree = "<group>"; };
+		F140343423683889003AD2D6 /* red_envelopes_top_bg.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = red_envelopes_top_bg.svg; sourceTree = "<group>"; };
+		F140343523683889003AD2D6 /* ui-resources_badge_count.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ui-resources_badge_count.svg"; sourceTree = "<group>"; };
+		F140343623683889003AD2D6 /* icons_outlined_news.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_news.svg; sourceTree = "<group>"; };
+		F140343723683889003AD2D6 /* icons_filled_mobile-contacts.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "icons_filled_mobile-contacts.svg"; sourceTree = "<group>"; };
+		F140343823683889003AD2D6 /* icons_outlined_takephoto_nor.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_takephoto_nor.svg; sourceTree = "<group>"; };
+		F140343923683889003AD2D6 /* icons_filled_transfer.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_filled_transfer.svg; sourceTree = "<group>"; };
+		F140343A23683889003AD2D6 /* icons_outlined_addfriends.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_addfriends.svg; sourceTree = "<group>"; };
+		F140343B23683889003AD2D6 /* icons_outlined_qr-code.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "icons_outlined_qr-code.svg"; sourceTree = "<group>"; };
+		F140343C23683889003AD2D6 /* icons_outlined_chats.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_chats.svg; sourceTree = "<group>"; };
+		F140343D23683889003AD2D6 /* icons_outlined_videocall.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_videocall.svg; sourceTree = "<group>"; };
+		F140343E23683889003AD2D6 /* icons_filled_add.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_filled_add.svg; sourceTree = "<group>"; };
+		F140343F23683889003AD2D6 /* ui-resources_checkbox_unselected.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ui-resources_checkbox_unselected.svg"; sourceTree = "<group>"; };
+		F140344023683889003AD2D6 /* icons_outlined_addoutline.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_addoutline.svg; sourceTree = "<group>"; };
+		F140344123683889003AD2D6 /* icons_filled_group-detail.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "icons_filled_group-detail.svg"; sourceTree = "<group>"; };
+		F140344223683889003AD2D6 /* icons_outlined_location.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_location.svg; sourceTree = "<group>"; };
+		F140344323683889003AD2D6 /* icons_filled_camera.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_filled_camera.svg; sourceTree = "<group>"; };
+		F140344423683889003AD2D6 /* icons_filled_album.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_filled_album.svg; sourceTree = "<group>"; };
+		F140344523683889003AD2D6 /* icons_filled_discover.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_filled_discover.svg; sourceTree = "<group>"; };
+		F140344623683889003AD2D6 /* icons_outlined_mini-program.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "icons_outlined_mini-program.svg"; sourceTree = "<group>"; };
+		F140344723683889003AD2D6 /* icons_outlined_arrow.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_arrow.svg; sourceTree = "<group>"; };
+		F140344823683889003AD2D6 /* icons_outlined_colorful_game.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_colorful_game.svg; sourceTree = "<group>"; };
+		F140344923683889003AD2D6 /* icons_outlined_contacts.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_contacts.svg; sourceTree = "<group>"; };
+		F140344A23683889003AD2D6 /* icons_filled_search-logo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "icons_filled_search-logo.svg"; sourceTree = "<group>"; };
+		F140344B23683889003AD2D6 /* ui-resources_checkbox_selected.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ui-resources_checkbox_selected.svg"; sourceTree = "<group>"; };
+		F140344C23683889003AD2D6 /* icons_filled_folder.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_filled_folder.svg; sourceTree = "<group>"; };
+		F140344D23683889003AD2D6 /* icons_outlined_camera.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_camera.svg; sourceTree = "<group>"; };
+		F140344E23683889003AD2D6 /* icons_outlined_shop.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_shop.svg; sourceTree = "<group>"; };
+		F140344F23683889003AD2D6 /* icons_filled_close.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_filled_close.svg; sourceTree = "<group>"; };
+		F140345023683889003AD2D6 /* red_envelopes_bottom_bg.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = red_envelopes_bottom_bg.svg; sourceTree = "<group>"; };
+		F140345123683889003AD2D6 /* icons_outlined_nearby.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_nearby.svg; sourceTree = "<group>"; };
+		F140345223683889003AD2D6 /* icon_filled_timelineop.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icon_filled_timelineop.svg; sourceTree = "<group>"; };
+		F140345323683889003AD2D6 /* icons_outlined_radar.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_radar.svg; sourceTree = "<group>"; };
+		F140345423683889003AD2D6 /* icons_filled_official-accounts.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "icons_filled_official-accounts.svg"; sourceTree = "<group>"; };
+		F140345523683889003AD2D6 /* icons_filled_add-friends.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "icons_filled_add-friends.svg"; sourceTree = "<group>"; };
+		F140345623683889003AD2D6 /* icons_outlined_like.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_like.svg; sourceTree = "<group>"; };
+		F140345723683889003AD2D6 /* icons_outlined_colorful_moment.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons_outlined_colorful_moment.svg; sourceTree = "<group>"; };
+		F140345923683889003AD2D6 /* WeChatSansStd-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WeChatSansStd-Regular.ttf"; sourceTree = "<group>"; };
+		F140345A23683889003AD2D6 /* WeChatSansSuperscript-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WeChatSansSuperscript-Medium.ttf"; sourceTree = "<group>"; };
+		F140345B23683889003AD2D6 /* WeChatSansSuperscript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WeChatSansSuperscript-Regular.ttf"; sourceTree = "<group>"; };
+		F140345C23683889003AD2D6 /* WeChatSansStd-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WeChatSansStd-Bold.ttf"; sourceTree = "<group>"; };
+		F140345D23683889003AD2D6 /* WeChatSansSuperscript-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WeChatSansSuperscript-Bold.ttf"; sourceTree = "<group>"; };
+		F140345E23683889003AD2D6 /* WeChatSansStd-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WeChatSansStd-Medium.ttf"; sourceTree = "<group>"; };
+		F140346023683889003AD2D6 /* Emoticons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Emoticons.json; sourceTree = "<group>"; };
+		F140346123683889003AD2D6 /* 15031638347220abdd83283a10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15031638347220abdd83283a10.png; sourceTree = "<group>"; };
+		F140346223683889003AD2D6 /* EmoticonBanners.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EmoticonBanners.json; sourceTree = "<group>"; };
+		F140346323683889003AD2D6 /* 15031638347220abdd83283a10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 15031638347220abdd83283a10.json; sourceTree = "<group>"; };
+		F140346423683889003AD2D6 /* 153716293386e633a27b0f3d76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 153716293386e633a27b0f3d76.png; sourceTree = "<group>"; };
+		F140346523683889003AD2D6 /* 153716293386e633a27b0f3d76.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 153716293386e633a27b0f3d76.json; sourceTree = "<group>"; };
+		F140346623683889003AD2D6 /* Emoticons.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Emoticons.zip; sourceTree = "<group>"; };
+		F140346823683889003AD2D6 /* dice.pic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dice.pic; sourceTree = "<group>"; };
+		F140346923683889003AD2D6 /* JSB_J.pic */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSB_J.pic; sourceTree = "<group>"; };
+		F140346A23683889003AD2D6 /* JSB.pic */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSB.pic; sourceTree = "<group>"; };
+		F140346B23683889003AD2D6 /* dice_3.pic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dice_3.pic; sourceTree = "<group>"; };
+		F140346C23683889003AD2D6 /* dice_2.pic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dice_2.pic; sourceTree = "<group>"; };
+		F140346D23683889003AD2D6 /* JSB_S.pic */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSB_S.pic; sourceTree = "<group>"; };
+		F140346E23683889003AD2D6 /* dice_1.pic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dice_1.pic; sourceTree = "<group>"; };
+		F140346F23683889003AD2D6 /* dice_5.pic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dice_5.pic; sourceTree = "<group>"; };
+		F140347023683889003AD2D6 /* dice_4.pic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dice_4.pic; sourceTree = "<group>"; };
+		F140347123683889003AD2D6 /* dice_6.pic */ = {isa = PBXFileReference; lastKnownFileType = file; path = dice_6.pic; sourceTree = "<group>"; };
+		F140347223683889003AD2D6 /* JSB_B.pic */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSB_B.pic; sourceTree = "<group>"; };
+		F14034D72368395A003AD2D6 /* SVGImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SVGImage+Extensions.swift"; sourceTree = "<group>"; };
 		F17C72D42366CC1F000FF509 /* WeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17C72D72366CC1F000FF509 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F17C72E02366CC21000FF509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +276,7 @@
 		F17C73152366D0FE000FF509 /* ZQMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQMeViewController.swift; sourceTree = "<group>"; };
 		F17C73172366EF45000FF509 /* ZQMeAvatarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQMeAvatarTableViewCell.swift; sourceTree = "<group>"; };
 		F17C73192366EF5E000FF509 /* ZQMeImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQMeImageTableViewCell.swift; sourceTree = "<group>"; };
+		FA24266A86208C52157F0B7B /* Pods_WeChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +284,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B3A563CD895A86159C0CBB /* Pods_WeChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +292,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F2DDA58DE8259FDB04AB475 /* Pods_WeChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +300,200 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B151079ABEC112F34B9D0C4 /* Pods_WeChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0650E3EEDA7313BF8D7A5C45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14D18B9810D9DE55B3E5AFCC /* Pods_WeChat.framework */,
+				FA24266A86208C52157F0B7B /* Pods_WeChatTests.framework */,
+				BACCED85F6419CDDD821CBA0 /* Pods_WeChatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD86A0E0B3113E8FD36F8653 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE22B0B3012EFEA33AD8B260 /* Pods-WeChat.debug.xcconfig */,
+				5A4C4B20B20F379F61ABA6B5 /* Pods-WeChat.release.xcconfig */,
+				1D36798C3F14A1F5854C4CD0 /* Pods-WeChatTests.debug.xcconfig */,
+				92D80AAB3D1EB838F7728D9A /* Pods-WeChatTests.release.xcconfig */,
+				DA6994000A8433D18130E93A /* Pods-WeChatUITests.debug.xcconfig */,
+				7CC006D43E65B949CFD77BF9 /* Pods-WeChatUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F14034012368131E003AD2D6 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F140340223681366003AD2D6 /* ZQNavigationController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		F1403404236818D8003AD2D6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F1403405236818F2003AD2D6 /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F140340723681DAA003AD2D6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F140340823681DF0003AD2D6 /* UIImage+SVG.swift */,
+				F14034D72368395A003AD2D6 /* SVGImage+Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F140340A23683889003AD2D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F140340B23683889003AD2D6 /* MomentCoverBackground.json */,
+				F140340C23683889003AD2D6 /* Expressions.json */,
+				F140340D23683889003AD2D6 /* jsb_emoticon_md5.png */,
+				F140340E23683889003AD2D6 /* dice_emoticon_md5.png */,
+				F140340F23683889003AD2D6 /* Icons */,
+				F140345823683889003AD2D6 /* Fonts */,
+				F140345F23683889003AD2D6 /* Emoticons */,
+				F140346723683889003AD2D6 /* Games */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F140340F23683889003AD2D6 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				F140341023683889003AD2D6 /* icons_outlined_share.svg */,
+				F140341123683889003AD2D6 /* icons_filled_more.svg */,
+				F140341223683889003AD2D6 /* red_envelopes_detail_top_bg.svg */,
+				F140341323683889003AD2D6 /* icons_filled_pay.svg */,
+				F140341423683889003AD2D6 /* icons_filled_chats.svg */,
+				F140341523683889003AD2D6 /* icons_outlined_wallet.svg */,
+				F140341623683889003AD2D6 /* icons_outlined_shake.svg */,
+				F140341723683889003AD2D6 /* icons_outlined_album.svg */,
+				F140341823683889003AD2D6 /* icons_outlined_add2.svg */,
+				F140341923683889003AD2D6 /* ui-resources_badge_dot.svg */,
+				F140341A23683889003AD2D6 /* icons_filled_sticker.svg */,
+				F140341B23683889003AD2D6 /* icons_outlined_discover.svg */,
+				F140341C23683889003AD2D6 /* icons_filled_scan.svg */,
+				F140341D23683889003AD2D6 /* icon_filled_timelineophl.svg */,
+				F140341E23683889003AD2D6 /* icons_outlined_comment.svg */,
+				F140341F23683889003AD2D6 /* icons_filled_back.svg */,
+				F140342023683889003AD2D6 /* icons_filled_contacts.svg */,
+				F140342123683889003AD2D6 /* icons_outlined_keyboard.svg */,
+				F140342223683889003AD2D6 /* icons_outlined_me.svg */,
+				F140342323683889003AD2D6 /* icons_filled_wallet.svg */,
+				F140342423683889003AD2D6 /* icons_filled_done.svg */,
+				F140342523683889003AD2D6 /* icons_outlined_colorful_favorites.svg */,
+				F140342623683889003AD2D6 /* icons_outlined_pay.svg */,
+				F140342723683889003AD2D6 /* icons_outlined_mute.svg */,
+				F140342823683889003AD2D6 /* icons_filled_location.svg */,
+				F140342923683889003AD2D6 /* icons_filled_radar.svg */,
+				F140342A23683889003AD2D6 /* icons_outlined_miniprogram.svg */,
+				F140342B23683889003AD2D6 /* icons_filled_favorites.svg */,
+				F140342C23683889003AD2D6 /* icons_outlined_voice.svg */,
+				F140342D23683889003AD2D6 /* icons_filled_me.svg */,
+				F140342E23683889003AD2D6 /* icons_outlined_back.svg */,
+				F140342F23683889003AD2D6 /* icons_outlined_scan.svg */,
+				F140343023683889003AD2D6 /* icons_outlined_setting.svg */,
+				F140343123683889003AD2D6 /* icons_outlined_at.svg */,
+				F140343223683889003AD2D6 /* icons_outlined_sticker.svg */,
+				F140343323683889003AD2D6 /* icons_outlined_wechatpay.svg */,
+				F140343423683889003AD2D6 /* red_envelopes_top_bg.svg */,
+				F140343523683889003AD2D6 /* ui-resources_badge_count.svg */,
+				F140343623683889003AD2D6 /* icons_outlined_news.svg */,
+				F140343723683889003AD2D6 /* icons_filled_mobile-contacts.svg */,
+				F140343823683889003AD2D6 /* icons_outlined_takephoto_nor.svg */,
+				F140343923683889003AD2D6 /* icons_filled_transfer.svg */,
+				F140343A23683889003AD2D6 /* icons_outlined_addfriends.svg */,
+				F140343B23683889003AD2D6 /* icons_outlined_qr-code.svg */,
+				F140343C23683889003AD2D6 /* icons_outlined_chats.svg */,
+				F140343D23683889003AD2D6 /* icons_outlined_videocall.svg */,
+				F140343E23683889003AD2D6 /* icons_filled_add.svg */,
+				F140343F23683889003AD2D6 /* ui-resources_checkbox_unselected.svg */,
+				F140344023683889003AD2D6 /* icons_outlined_addoutline.svg */,
+				F140344123683889003AD2D6 /* icons_filled_group-detail.svg */,
+				F140344223683889003AD2D6 /* icons_outlined_location.svg */,
+				F140344323683889003AD2D6 /* icons_filled_camera.svg */,
+				F140344423683889003AD2D6 /* icons_filled_album.svg */,
+				F140344523683889003AD2D6 /* icons_filled_discover.svg */,
+				F140344623683889003AD2D6 /* icons_outlined_mini-program.svg */,
+				F140344723683889003AD2D6 /* icons_outlined_arrow.svg */,
+				F140344823683889003AD2D6 /* icons_outlined_colorful_game.svg */,
+				F140344923683889003AD2D6 /* icons_outlined_contacts.svg */,
+				F140344A23683889003AD2D6 /* icons_filled_search-logo.svg */,
+				F140344B23683889003AD2D6 /* ui-resources_checkbox_selected.svg */,
+				F140344C23683889003AD2D6 /* icons_filled_folder.svg */,
+				F140344D23683889003AD2D6 /* icons_outlined_camera.svg */,
+				F140344E23683889003AD2D6 /* icons_outlined_shop.svg */,
+				F140344F23683889003AD2D6 /* icons_filled_close.svg */,
+				F140345023683889003AD2D6 /* red_envelopes_bottom_bg.svg */,
+				F140345123683889003AD2D6 /* icons_outlined_nearby.svg */,
+				F140345223683889003AD2D6 /* icon_filled_timelineop.svg */,
+				F140345323683889003AD2D6 /* icons_outlined_radar.svg */,
+				F140345423683889003AD2D6 /* icons_filled_official-accounts.svg */,
+				F140345523683889003AD2D6 /* icons_filled_add-friends.svg */,
+				F140345623683889003AD2D6 /* icons_outlined_like.svg */,
+				F140345723683889003AD2D6 /* icons_outlined_colorful_moment.svg */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		F140345823683889003AD2D6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F140345923683889003AD2D6 /* WeChatSansStd-Regular.ttf */,
+				F140345A23683889003AD2D6 /* WeChatSansSuperscript-Medium.ttf */,
+				F140345B23683889003AD2D6 /* WeChatSansSuperscript-Regular.ttf */,
+				F140345C23683889003AD2D6 /* WeChatSansStd-Bold.ttf */,
+				F140345D23683889003AD2D6 /* WeChatSansSuperscript-Bold.ttf */,
+				F140345E23683889003AD2D6 /* WeChatSansStd-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F140345F23683889003AD2D6 /* Emoticons */ = {
+			isa = PBXGroup;
+			children = (
+				F140346023683889003AD2D6 /* Emoticons.json */,
+				F140346123683889003AD2D6 /* 15031638347220abdd83283a10.png */,
+				F140346223683889003AD2D6 /* EmoticonBanners.json */,
+				F140346323683889003AD2D6 /* 15031638347220abdd83283a10.json */,
+				F140346423683889003AD2D6 /* 153716293386e633a27b0f3d76.png */,
+				F140346523683889003AD2D6 /* 153716293386e633a27b0f3d76.json */,
+				F140346623683889003AD2D6 /* Emoticons.zip */,
+			);
+			path = Emoticons;
+			sourceTree = "<group>";
+		};
+		F140346723683889003AD2D6 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				F140346823683889003AD2D6 /* dice.pic */,
+				F140346923683889003AD2D6 /* JSB_J.pic */,
+				F140346A23683889003AD2D6 /* JSB.pic */,
+				F140346B23683889003AD2D6 /* dice_3.pic */,
+				F140346C23683889003AD2D6 /* dice_2.pic */,
+				F140346D23683889003AD2D6 /* JSB_S.pic */,
+				F140346E23683889003AD2D6 /* dice_1.pic */,
+				F140346F23683889003AD2D6 /* dice_5.pic */,
+				F140347023683889003AD2D6 /* dice_4.pic */,
+				F140347123683889003AD2D6 /* dice_6.pic */,
+				F140347223683889003AD2D6 /* JSB_B.pic */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
 		F17C72CB2366CC1F000FF509 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +501,8 @@
 				F17C72ED2366CC23000FF509 /* WeChatTests */,
 				F17C72F82366CC23000FF509 /* WeChatUITests */,
 				F17C72D52366CC1F000FF509 /* Products */,
+				AD86A0E0B3113E8FD36F8653 /* Pods */,
+				0650E3EEDA7313BF8D7A5C45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,12 +548,16 @@
 		F17C73072366CDED000FF509 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				F140340723681DAA003AD2D6 /* Extension */,
+				F1403404236818D8003AD2D6 /* Common */,
+				F14034012368131E003AD2D6 /* Navigation */,
 				F17C730E2366D059000FF509 /* Me */,
 				F17C730D2366D04B000FF509 /* Discover */,
 				F17C730C2366D03C000FF509 /* Contacts */,
 				F17C730B2366CF12000FF509 /* Chat */,
 				F17C73082366CE0D000FF509 /* TabBar */,
 				F17C72D72366CC1F000FF509 /* AppDelegate.swift */,
+				F140340A23683889003AD2D6 /* Resources */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -195,9 +611,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F17C72FE2366CC23000FF509 /* Build configuration list for PBXNativeTarget "WeChat" */;
 			buildPhases = (
+				B29E8A90B5CA58AC7EB7A842 /* [CP] Check Pods Manifest.lock */,
 				F17C72D02366CC1F000FF509 /* Sources */,
 				F17C72D12366CC1F000FF509 /* Frameworks */,
 				F17C72D22366CC1F000FF509 /* Resources */,
+				8037783CFEBB7AD0884BCF4D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -212,6 +630,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F17C73012366CC23000FF509 /* Build configuration list for PBXNativeTarget "WeChatTests" */;
 			buildPhases = (
+				F79F9DD9233B7F0F38566B34 /* [CP] Check Pods Manifest.lock */,
 				F17C72E62366CC23000FF509 /* Sources */,
 				F17C72E72366CC23000FF509 /* Frameworks */,
 				F17C72E82366CC23000FF509 /* Resources */,
@@ -230,6 +649,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F17C73042366CC23000FF509 /* Build configuration list for PBXNativeTarget "WeChatUITests" */;
 			buildPhases = (
+				2E3161F423098085270FFB61 /* [CP] Check Pods Manifest.lock */,
 				F17C72F12366CC23000FF509 /* Sources */,
 				F17C72F22366CC23000FF509 /* Frameworks */,
 				F17C72F32366CC23000FF509 /* Resources */,
@@ -292,8 +712,108 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F140347823683889003AD2D6 /* icons_filled_more.svg in Resources */,
+				F140349523683889003AD2D6 /* icons_outlined_back.svg in Resources */,
+				F14034AF23683889003AD2D6 /* icons_outlined_colorful_game.svg in Resources */,
+				F140349C23683889003AD2D6 /* ui-resources_badge_count.svg in Resources */,
+				F14034BD23683889003AD2D6 /* icons_outlined_like.svg in Resources */,
+				F140349723683889003AD2D6 /* icons_outlined_setting.svg in Resources */,
+				F14034C323683889003AD2D6 /* WeChatSansSuperscript-Bold.ttf in Resources */,
+				F14034BB23683889003AD2D6 /* icons_filled_official-accounts.svg in Resources */,
+				F140347323683889003AD2D6 /* MomentCoverBackground.json in Resources */,
+				F14034AE23683889003AD2D6 /* icons_outlined_arrow.svg in Resources */,
+				F140348E23683889003AD2D6 /* icons_outlined_mute.svg in Resources */,
+				F14034C523683889003AD2D6 /* Emoticons.json in Resources */,
+				F140347B23683889003AD2D6 /* icons_filled_chats.svg in Resources */,
+				F14034D123683889003AD2D6 /* JSB_S.pic in Resources */,
+				F14034C623683889003AD2D6 /* 15031638347220abdd83283a10.png in Resources */,
+				F14034CA23683889003AD2D6 /* 153716293386e633a27b0f3d76.json in Resources */,
+				F14034BE23683889003AD2D6 /* icons_outlined_colorful_moment.svg in Resources */,
 				F17C72E42366CC21000FF509 /* LaunchScreen.storyboard in Resources */,
+				F14034C123683889003AD2D6 /* WeChatSansSuperscript-Regular.ttf in Resources */,
+				F140349423683889003AD2D6 /* icons_filled_me.svg in Resources */,
+				F140348323683889003AD2D6 /* icons_filled_scan.svg in Resources */,
+				F14034B223683889003AD2D6 /* ui-resources_checkbox_selected.svg in Resources */,
+				F14034C923683889003AD2D6 /* 153716293386e633a27b0f3d76.png in Resources */,
+				F14034B523683889003AD2D6 /* icons_outlined_shop.svg in Resources */,
+				F14034CD23683889003AD2D6 /* JSB_J.pic in Resources */,
 				F17C72E12366CC21000FF509 /* Assets.xcassets in Resources */,
+				F14034A723683889003AD2D6 /* icons_outlined_addoutline.svg in Resources */,
+				F14034CE23683889003AD2D6 /* JSB.pic in Resources */,
+				F14034B623683889003AD2D6 /* icons_filled_close.svg in Resources */,
+				F140347423683889003AD2D6 /* Expressions.json in Resources */,
+				F14034C823683889003AD2D6 /* 15031638347220abdd83283a10.json in Resources */,
+				F14034BA23683889003AD2D6 /* icons_outlined_radar.svg in Resources */,
+				F140349E23683889003AD2D6 /* icons_filled_mobile-contacts.svg in Resources */,
+				F140349323683889003AD2D6 /* icons_outlined_voice.svg in Resources */,
+				F140349F23683889003AD2D6 /* icons_outlined_takephoto_nor.svg in Resources */,
+				F140349023683889003AD2D6 /* icons_filled_radar.svg in Resources */,
+				F140349623683889003AD2D6 /* icons_outlined_scan.svg in Resources */,
+				F14034C723683889003AD2D6 /* EmoticonBanners.json in Resources */,
+				F140349823683889003AD2D6 /* icons_outlined_at.svg in Resources */,
+				F14034B123683889003AD2D6 /* icons_filled_search-logo.svg in Resources */,
+				F140348023683889003AD2D6 /* ui-resources_badge_dot.svg in Resources */,
+				F14034C023683889003AD2D6 /* WeChatSansSuperscript-Medium.ttf in Resources */,
+				F14034B923683889003AD2D6 /* icon_filled_timelineop.svg in Resources */,
+				F140348F23683889003AD2D6 /* icons_filled_location.svg in Resources */,
+				F140348823683889003AD2D6 /* icons_outlined_keyboard.svg in Resources */,
+				F14034D323683889003AD2D6 /* dice_5.pic in Resources */,
+				F140347C23683889003AD2D6 /* icons_outlined_wallet.svg in Resources */,
+				F140348D23683889003AD2D6 /* icons_outlined_pay.svg in Resources */,
+				F14034A423683889003AD2D6 /* icons_outlined_videocall.svg in Resources */,
+				F140348523683889003AD2D6 /* icons_outlined_comment.svg in Resources */,
+				F14034A823683889003AD2D6 /* icons_filled_group-detail.svg in Resources */,
+				F14034A323683889003AD2D6 /* icons_outlined_chats.svg in Resources */,
+				F14034D523683889003AD2D6 /* dice_6.pic in Resources */,
+				F14034D623683889003AD2D6 /* JSB_B.pic in Resources */,
+				F14034C423683889003AD2D6 /* WeChatSansStd-Medium.ttf in Resources */,
+				F140347F23683889003AD2D6 /* icons_outlined_add2.svg in Resources */,
+				F14034A623683889003AD2D6 /* ui-resources_checkbox_unselected.svg in Resources */,
+				F14034CC23683889003AD2D6 /* dice.pic in Resources */,
+				F140347923683889003AD2D6 /* red_envelopes_detail_top_bg.svg in Resources */,
+				F140348623683889003AD2D6 /* icons_filled_back.svg in Resources */,
+				F14034A123683889003AD2D6 /* icons_outlined_addfriends.svg in Resources */,
+				F14034CB23683889003AD2D6 /* Emoticons.zip in Resources */,
+				F140349D23683889003AD2D6 /* icons_outlined_news.svg in Resources */,
+				F14034B323683889003AD2D6 /* icons_filled_folder.svg in Resources */,
+				F140348423683889003AD2D6 /* icon_filled_timelineophl.svg in Resources */,
+				F14034A523683889003AD2D6 /* icons_filled_add.svg in Resources */,
+				F140347D23683889003AD2D6 /* icons_outlined_shake.svg in Resources */,
+				F14034B423683889003AD2D6 /* icons_outlined_camera.svg in Resources */,
+				F140347A23683889003AD2D6 /* icons_filled_pay.svg in Resources */,
+				F140347523683889003AD2D6 /* jsb_emoticon_md5.png in Resources */,
+				F14034A923683889003AD2D6 /* icons_outlined_location.svg in Resources */,
+				F14034BF23683889003AD2D6 /* WeChatSansStd-Regular.ttf in Resources */,
+				F14034AA23683889003AD2D6 /* icons_filled_camera.svg in Resources */,
+				F14034AD23683889003AD2D6 /* icons_outlined_mini-program.svg in Resources */,
+				F140347E23683889003AD2D6 /* icons_outlined_album.svg in Resources */,
+				F140349B23683889003AD2D6 /* red_envelopes_top_bg.svg in Resources */,
+				F140349223683889003AD2D6 /* icons_filled_favorites.svg in Resources */,
+				F14034AB23683889003AD2D6 /* icons_filled_album.svg in Resources */,
+				F140348923683889003AD2D6 /* icons_outlined_me.svg in Resources */,
+				F140348723683889003AD2D6 /* icons_filled_contacts.svg in Resources */,
+				F140349923683889003AD2D6 /* icons_outlined_sticker.svg in Resources */,
+				F14034A023683889003AD2D6 /* icons_filled_transfer.svg in Resources */,
+				F140348C23683889003AD2D6 /* icons_outlined_colorful_favorites.svg in Resources */,
+				F14034A223683889003AD2D6 /* icons_outlined_qr-code.svg in Resources */,
+				F14034B023683889003AD2D6 /* icons_outlined_contacts.svg in Resources */,
+				F140348123683889003AD2D6 /* icons_filled_sticker.svg in Resources */,
+				F14034BC23683889003AD2D6 /* icons_filled_add-friends.svg in Resources */,
+				F14034B823683889003AD2D6 /* icons_outlined_nearby.svg in Resources */,
+				F14034AC23683889003AD2D6 /* icons_filled_discover.svg in Resources */,
+				F140348B23683889003AD2D6 /* icons_filled_done.svg in Resources */,
+				F14034D423683889003AD2D6 /* dice_4.pic in Resources */,
+				F14034D223683889003AD2D6 /* dice_1.pic in Resources */,
+				F140347623683889003AD2D6 /* dice_emoticon_md5.png in Resources */,
+				F140349123683889003AD2D6 /* icons_outlined_miniprogram.svg in Resources */,
+				F14034CF23683889003AD2D6 /* dice_3.pic in Resources */,
+				F14034C223683889003AD2D6 /* WeChatSansStd-Bold.ttf in Resources */,
+				F14034D023683889003AD2D6 /* dice_2.pic in Resources */,
+				F140348223683889003AD2D6 /* icons_outlined_discover.svg in Resources */,
+				F140348A23683889003AD2D6 /* icons_filled_wallet.svg in Resources */,
+				F140349A23683889003AD2D6 /* icons_outlined_wechatpay.svg in Resources */,
+				F140347723683889003AD2D6 /* icons_outlined_share.svg in Resources */,
+				F14034B723683889003AD2D6 /* red_envelopes_bottom_bg.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +833,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E3161F423098085270FFB61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8037783CFEBB7AD0884BCF4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeChat/Pods-WeChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeChat/Pods-WeChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeChat/Pods-WeChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B29E8A90B5CA58AC7EB7A842 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F79F9DD9233B7F0F38566B34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F17C72D02366CC1F000FF509 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -320,12 +926,16 @@
 			files = (
 				F17C73142366D0E9000FF509 /* ZQDiscoverViewController.swift in Sources */,
 				F17C730A2366CF08000FF509 /* ZQTabBarViewController.swift in Sources */,
+				F14034D82368395A003AD2D6 /* SVGImage+Extensions.swift in Sources */,
 				F17C731A2366EF5E000FF509 /* ZQMeImageTableViewCell.swift in Sources */,
 				F17C73162366D0FE000FF509 /* ZQMeViewController.swift in Sources */,
 				F17C73122366D0DE000FF509 /* ZQContactsViewController.swift in Sources */,
+				F1403406236818F2003AD2D6 /* Constants.swift in Sources */,
 				F17C72D82366CC1F000FF509 /* AppDelegate.swift in Sources */,
+				F140340323681366003AD2D6 /* ZQNavigationController.swift in Sources */,
 				F17C73102366D0CD000FF509 /* ZQChatViewController.swift in Sources */,
 				F17C73182366EF45000FF509 /* ZQMeAvatarTableViewCell.swift in Sources */,
+				F140340923681DF0003AD2D6 /* UIImage+SVG.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +1098,7 @@
 		};
 		F17C72FF2366CC23000FF509 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE22B0B3012EFEA33AD8B260 /* Pods-WeChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +1118,7 @@
 		};
 		F17C73002366CC23000FF509 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A4C4B20B20F379F61ABA6B5 /* Pods-WeChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +1138,7 @@
 		};
 		F17C73022366CC23000FF509 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D36798C3F14A1F5854C4CD0 /* Pods-WeChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -548,6 +1161,7 @@
 		};
 		F17C73032366CC23000FF509 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D80AAB3D1EB838F7728D9A /* Pods-WeChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -570,6 +1184,7 @@
 		};
 		F17C73052366CC23000FF509 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6994000A8433D18130E93A /* Pods-WeChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -590,6 +1205,7 @@
 		};
 		F17C73062366CC23000FF509 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CC006D43E65B949CFD77BF9 /* Pods-WeChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

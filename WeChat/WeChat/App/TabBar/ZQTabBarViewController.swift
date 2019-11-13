@@ -49,8 +49,7 @@ class ZQTabBarViewController: UITabBarController {
         controller.tabBarItem!.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.lightGray], for: .normal)
             controller.tabBarItem!.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.init(named: "tabBar_selectedText") ?? UIColor.red], for: .selected)
 
-            
-            let navigationController = UINavigationController(rootViewController: controller)
+            let navigationController = ZQNavigationController(rootViewController: controller)
             navigationVCArray.append(navigationController)
         }
         self.viewControllers = navigationVCArray as! [UINavigationController]

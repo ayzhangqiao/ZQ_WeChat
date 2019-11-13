@@ -9,6 +9,9 @@ pod 'Kingfisher'
 pod 'SnapKit'
 pod 'UIColor_Hex_Swift'
 
+pod 'SVGKit', :path => 'DevelopmentPods/SVGKit'
+pod 'SFVideoPlayer', :path => 'DevelopmentPods/SFVideoPlayer'
+
   # Pods for WeChat
 
   target 'WeChatTests' do
